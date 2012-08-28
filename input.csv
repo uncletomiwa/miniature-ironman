@@ -1,0 +1,10 @@
+year,income,student,credit,class
+senior,low,yes,excellent,no
+middleage,low,yes,excellent,yes
+youth,medium,no,fair,no
+youth,low,yes,fair,yes
+senior,medium,yes,fair,yes
+youth,medium,yes,excellent,yes
+middleage,medium,no,excellent,yes
+middleage,high,yes,fair,yes
+senior,medium,no,excellent,no
