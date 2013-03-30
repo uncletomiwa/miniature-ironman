@@ -94,16 +94,16 @@ def init()
     _jChances=getJointChances(getColumn(sample, i, 1),getColumn(sample, chances.keys.length-1, 1), chances[chances.keys[i]], chances[chances.keys[chances.keys.length-1]])
     jChances[chances.keys[i]]=_jChances
   end
-  
-  puts "Enter First Variable"
-  v1= gets().chomp()
-  puts "Enter Value for #{v1}"
-  c1=gets().chomp()
-  puts "Enter Second Variable"
-  v2= gets().chomp()
-  puts "Enter Value for #{v2}"
-  c2=gets().chomp()
-  puts makeDecision(v1, v2, c1, c2, chances["class"],jChances, sample.length-2)
+  puts jChances
+  # puts "Enter First Variable"
+  # v1= gets().chomp()
+  # puts "Enter Value for #{v1}"
+  # c1=gets().chomp()
+  # puts "Enter Second Variable"
+  # v2= gets().chomp()
+  # puts "Enter Value for #{v2}"
+  # c2=gets().chomp()
+  # puts makeDecision(v1, v2, c1, c2, chances["class"],jChances, sample.length-2)
 end
 
 
